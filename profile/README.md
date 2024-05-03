@@ -8,9 +8,12 @@ Hyperflask combines multiple Flask extensions and frontend libraries into a seam
 
 ## Backend libraries developed as part of the Hyperflask project
 
-| Extension | Description | Status |
+**Each of these projects is usable standalone outside of Hyperflask!**
+
+### Flask extensions
+
+| Name | Description | Status |
 | --- | --- | --- |
-| [sqlorm](https://github.com/hyperflask/sqlorm) | SQL focused ORM | ✅ |
 | [Flask-SQLORM](https://github.com/hyperflask/flask-sqlorm) | Flask integration of [sqlorm](https://github.com/hyperflask/sqlorm) | ✅ |
 | [Flask-Configurator](https://github.com/hyperflask/flask-configurator) | File based configuration | ✅ |
 | [Flask-Assets-Pipeline](https://github.com/hyperflask/flask-assets-pipeline) | Modern asset pipeline | ✅ |
@@ -23,21 +26,33 @@ Hyperflask combines multiple Flask extensions and frontend libraries into a seam
 | [Flask-Mercure](https://github.com/hyperflask/flask-mercure) | Push events via server-sent events using the [Mercure](https://mercure.rocks) protocol | ✅ |
 | [Flask-Mailman-Templates](https://github.com/hyperflask/flask-mailman-templates) | Email templates for [Flask-Mailman](https://github.com/waynerv/flask-mailman) | 🚧 |
 | [Flask-Sentry](https://github.com/hyperflask/flask-sentry) | Sentry and Spotlight integration | ✅ |
+| [Flask-Super-Macros](https://github.com/hyperflask/flask-super-macros) | Better macro management for Jinja | 🚧 |
+
+### Jinja extensions
+
+| Name | Description | Status |
+| --- | --- | --- |
 | [Jinja-Super-Macros](https://github.com/hyperflask/jinja-super-macros) | Better macro management for Jinja | 🚧 |
 | [Jinja-Layout](https://github.com/hyperflask/jinja-layout) | Easier layout handling for Jinja | ✅ |
 | [Jinja-WTForms](https://github.com/hyperflask/jinja-wtforms) | Create [WTForms](https://wtforms.readthedocs.io) classes from Jinja templates | 🚧 |
+| [Jinja-Page-Modules](https://github.com/hyperflask/jinja-page-modules) | Mix code file format combining python code and a jinja template | 🚧 |
+| [Jinja-Frontmatter](https://github.com/hyperflask/jinja-frontmatter) | Frontmatter support for jinja templates | 🚧 |
 
-**Each of these extensions is usable standalone outside of Hyperflask!**
+### Other libraries
 
-Optional projects developed as part of Hyperflask:
+| Name | Description | Status |
+| --- | --- | --- |
+| [sqlorm](https://github.com/hyperflask/sqlorm) | SQL focused ORM | ✅ |
 
-| Extension | Description | Status |
+### Optional projects developed as part of Hyperflask
+
+| Name | Description | Status |
 | --- | --- | --- |
 | [Flask-Stripe-Checkout](https://github.com/hyperflask/flask-stripe-checkout) | Handle payments and subscriptions using Stripe Checkout | ✅ |
 
 ## Third-party Flask extensions used by Hyperflask
 
-| Extension | Description |
+| Name | Description |
 | --- | --- |
 | [Frozen-Flask](https://github.com/Frozen-Flask/Frozen) | Generate a static website from your Flask app |
 | [Flask-Talisman](https://github.com/wntrblm/flask-talisman) | HTTP security headers for Flask |
@@ -51,7 +66,7 @@ Optional projects developed as part of Hyperflask:
 | Extension | Description |
 | --- | --- |
 | [htmx](https://htmx.org/) | Easy AJAX requests from HTML |
-| [Bootstrap](https://getbootstrap.com/) | Frontend UI toolkit |
+| [daisyUI](https://daisyui.com/) | UI component library using Tailwind |
 | [Bootstrap Icons](https://icons.getbootstrap.com/) | Icon pack |
 
 ## Frontend libraries developed as part of the Hyperflask project 
