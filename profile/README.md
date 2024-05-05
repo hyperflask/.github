@@ -6,9 +6,28 @@ Checkout the [hyperflask](https://github.com/hyperflask/hyperflask) repository f
 
 Hyperflask combines multiple Flask extensions and frontend libraries into a seamless experience. This page lists all projects and components used as part of the Hyperflask project.
 
-## Backend libraries developed as part of the Hyperflask project
+## Hyperflask
 
-**Each of these projects is usable standalone outside of Hyperflask!**
+| Project | Description | Status |
+| --- | --- | --- |
+| [hyperflask](https://github.com/hyperflask/hyperflask) | HyperFlask framework | 🚧 |
+| [hyperflask-docs](https://github.com/hyperflask/hyperflask-docs) | Documentation | ❌ |
+| [hyperflask-cookiecutter](https://github.com/hyperflask/hyperflask-cookiecutter) | Template for new Hyperflask projects | 🚧 |
+| [hyperflask-cli](https://github.com/hyperflask/hyperflask-cli) | CLI to create and manage Hyperflask projects | 🚧 |
+| [hyperflask-site](https://github.com/hyperflask/hyperflask-docs) | [hyperflask.io](https://hyperflask.io) | ❌ |
+| [hyperflask-studio](https://github.com/hyperflask/hyperflask-studio) | All-in-one web console (CMS, IDE, Analytics, ...) | ❌ |
+
+## Independant libraries developed as part of the Hyperflask project
+
+Each of these projects is usable standalone outside of Hyperflask!
+
+### Python libraries
+
+| Name | Description | Status |
+| --- | --- | --- |
+| [sqlorm](https://github.com/hyperflask/sqlorm) | SQL focused ORM | ✅ |
+| [uilib-spec](https://github.com/hyperflask/uilib-spec) | A specification to generate bindings for UI component libraries | 🚧 |
+| [uilib-spec-daisyui](https://github.com/hyperflask/uilib-spec-daisyui) | uilib-spec for [daisyUI](https://daisyui.com) | 🚧 |
 
 ### Flask extensions
 
@@ -27,6 +46,7 @@ Hyperflask combines multiple Flask extensions and frontend libraries into a seam
 | [Flask-Mailman-Templates](https://github.com/hyperflask/flask-mailman-templates) | Email templates for [Flask-Mailman](https://github.com/waynerv/flask-mailman) | 🚧 |
 | [Flask-Sentry](https://github.com/hyperflask/flask-sentry) | Sentry and Spotlight integration | ✅ |
 | [Flask-Super-Macros](https://github.com/hyperflask/flask-super-macros) | Better macro management for Jinja | 🚧 |
+| [Flask-Stripe-Checkout](https://github.com/hyperflask/flask-stripe-checkout) | Handle payments and subscriptions using Stripe Checkout | ✅ |
 
 ### Jinja extensions
 
@@ -38,52 +58,34 @@ Hyperflask combines multiple Flask extensions and frontend libraries into a seam
 | [Jinja-Page-Modules](https://github.com/hyperflask/jinja-page-modules) | Mix code file format combining python code and a jinja template | 🚧 |
 | [Jinja-Frontmatter](https://github.com/hyperflask/jinja-frontmatter) | Frontmatter support for jinja templates | 🚧 |
 
-### Other libraries
-
-| Name | Description | Status |
-| --- | --- | --- |
-| [sqlorm](https://github.com/hyperflask/sqlorm) | SQL focused ORM | ✅ |
-
-### Optional projects developed as part of Hyperflask
-
-| Name | Description | Status |
-| --- | --- | --- |
-| [Flask-Stripe-Checkout](https://github.com/hyperflask/flask-stripe-checkout) | Handle payments and subscriptions using Stripe Checkout | ✅ |
-
-## Third-party Flask extensions used by Hyperflask
-
-| Name | Description |
-| --- | --- |
-| [Frozen-Flask](https://github.com/Frozen-Flask/Frozen) | Generate a static website from your Flask app |
-| [Flask-Talisman](https://github.com/wntrblm/flask-talisman) | HTTP security headers for Flask |
-| [Htmx-Flask](https://github.com/sponsfreixes/htmx-flask) | HTMX integration for Flask |
-| [Flask-Mailman](https://github.com/waynerv/flask-mailman) | Send emails |
-| [Flask-Login](https://github.com/maxcountryman/flask-login) | User session management |
-| [Flask-Babel](https://github.com/python-babel/flask-babel) | I18n (bundled as part of Flask-Babel-Plus) |
-
-## Third party frontend libraries used by Hyperflask
-
-| Extension | Description |
-| --- | --- |
-| [htmx](https://htmx.org/) | Easy AJAX requests from HTML |
-| [daisyUI](https://daisyui.com/) | UI component library using Tailwind |
-| [Bootstrap Icons](https://icons.getbootstrap.com/) | Icon pack |
-
-## Frontend libraries developed as part of the Hyperflask project 
+### Frontend libraries
 
 | Project | Description | Status |
 | --- | --- | --- |
 | [htmx-pwa](https://github.com/hyperflask/htmx-pwa) | Easily support PWA features for your htmx sites | 🚧 |
 | [htmx-active-url](https://github.com/hyperflask/htmx-active-url) | Highlight the currently active url | ❌ |
 
-*(also usable independently)*
+## Major third-party projects used in Hyperflask
 
-## Supporting projects part of Hyperflask
+### Python libraries
 
-| Project | Description | Status |
-| --- | --- | --- |
-| [hyperflask-docs](https://github.com/hyperflask/hyperflask-docs) | Documentation | ❌ |
-| [hyperflask-cookiecutter](https://github.com/hyperflask/hyperflask-cookiecutter) | Template for new Hyperflask projects | 🚧 |
-| [hyperflask-cli](https://github.com/hyperflask/hyperflask-cli) | CLI to create and manage Hyperflask projects | 🚧 |
-| [hyperflask-site](https://github.com/hyperflask/hyperflask-docs) | [hyperflask.io](https://hyperflask.io) | ❌ |
-| [hyperflask-studio](https://github.com/hyperflask/hyperflask-studio) | All-in-one web console (CMS, IDE, Analytics, ...) | ❌ |
+| Name | Description |
+| --- | --- |
+| [Flask](https://flask.palletsprojects.com) | Python web framework |
+| [Frozen-Flask](https://github.com/Frozen-Flask/Frozen) | Generate a static website from your Flask app |
+| [Flask-Talisman](https://github.com/wntrblm/flask-talisman) | HTTP security headers for Flask |
+| [Htmx-Flask](https://github.com/sponsfreixes/htmx-flask) | HTMX integration for Flask |
+| [Flask-Mailman](https://github.com/waynerv/flask-mailman) | Send emails |
+| [Flask-Login](https://github.com/maxcountryman/flask-login) | User session management |
+| [Flask-Babel](https://github.com/python-babel/flask-babel) | I18n (bundled as part of Flask-Babel-Plus) |
+| [Flask-Dramatiq](https://flask-dramatiq.readthedocs.io) | Background tasks powered by [Dramatiq](https://dramatiq.io/) |
+| [PassLib](https://passlib.readthedocs.io) | Password hashing library |
+| [Honcho](https://github.com/nickstenning/honcho) | Process runner |
+
+### Frontend libraries
+
+| Extension | Description |
+| --- | --- |
+| [htmx](https://htmx.org/) | Easy AJAX requests from HTML |
+| [daisyUI](https://daisyui.com/) | UI component library using Tailwind |
+| [Bootstrap Icons](https://icons.getbootstrap.com/) | Icon pack |
