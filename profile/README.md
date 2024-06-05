@@ -33,8 +33,8 @@ Visit [hyperflask.io](https://hyperflask.io) for more information
 | Project | Description | Key technologies | Status |
 | --- | --- | --- | --- |
 | [hyperflask](https://github.com/hyperflask/hyperflask) | Full stack Python web framework | [Python](https://www.python.org/), [Flask](https://flask.palletsprojects.com), [SQLite](https://www.sqlite.org/), [htmx](https://htmx.org/), [tailwindcss](https://tailwindcss.com/), [daisyUI](https://daisyui.com/) | 🚧
-| [hyperflask-cli](https://github.com/hyperflask/hyperflask-cli) | Tool to create, develop and deploy Hyperflask projects | [Docker](https://www.docker.com/), [Development Containers](https://containers.dev/) | 🚧
-| [hyperflask-infra](https://github.com/hyperflask/hyperflask-infra) | Infrastructure to independently host Hyperflask projects | [Ansible](https://www.ansible.com/), [OpenTofu](https://opentofu.org/), [Ubuntu](https://ubuntu.com/), [Docker](https://www.docker.com/), [Traefik](https://traefik.io/), [Litestream](https://litestream.io/), [Valkey](https://valkey.io/), [OpenTelemetry](https://opentelemetry.io/) | 🚧
+| [hyperflask-start](https://github.com/hyperflask/hyperflask-start) | Starter template for new projects | [Docker](https://www.docker.com/), [Development Containers](https://containers.dev/) | 🚧
+| [hyperflask-deploy](https://github.com/hyperflask/hyperflask-infra) | Deploy your projects in once command | [Ansible](https://www.ansible.com/), [OpenTofu](https://opentofu.org/), [Ubuntu](https://ubuntu.com/), [Docker](https://www.docker.com/), [Traefik](https://traefik.io/), [Litestream](https://litestream.io/), [Valkey](https://valkey.io/), [OpenTelemetry](https://opentelemetry.io/) | 🚧
 
 ## Independant projects developed as part of the Hyperflask project
 
@@ -66,7 +66,6 @@ Each of these projects is usable standalone outside of Hyperflask!
 | [Flask-SQLORM](https://github.com/hyperflask/flask-sqlorm) | Flask integration of [sqlorm](https://github.com/hyperflask/sqlorm) | ✅ |
 | [Flask-Stripe-Checkout](https://github.com/hyperflask/flask-stripe-checkout) | Handle payments and subscriptions using Stripe Checkout | ✅ |
 | [Flask-Super-Macros](https://github.com/hyperflask/flask-super-macros) | Better macro management for Jinja | 🚧 |
-| [Flask-Umami](https://github.com/hyperflask/flask-umami) | [Umami](https://umami.is/) integration in Flask | ✅ |
 
 ### Jinja extensions
 
