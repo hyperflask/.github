@@ -26,7 +26,7 @@ Key goals:
  - Can run on cheap machines or VMs from any server/cloud providers
  - Respect privacy and limit data collections (GDPR compliant by default)
 
-Visit [hyperflask.io](https://hyperflask.io) for more information
+Visit [hyperflask.dev](https://hyperflask.dev) for more information
 
 ## Core projects
 
