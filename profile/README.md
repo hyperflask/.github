@@ -2,7 +2,7 @@
 <hr>
 <div align="center">
 
-**Full stack Python web framework and ops stack to build, deploy and run websites and web apps with as little boilerplate as possible. All the tech choices have been made so you can focus on building your product, not your tech stack.**
+**Full stack Python web framework and infrastruture to build, deploy and run websites and web apps with as little boilerplate as possible. All the tech choices have been made so you can focus on building your product, not your tech stack.**
 
 **⚠️ This is a work in progress project which is not functionnal yet ⚠️**
 
@@ -45,6 +45,7 @@ Each of these projects is usable standalone outside of Hyperflask!
 | Name | Description | Status |
 | --- | --- | --- |
 | [sqlorm](https://github.com/hyperflask/sqlorm) | SQL-focused Python ORM | ✅ |
+| [jinjapy](https://github.com/hyperflask/jinjapy) | Hybrid file format combining a jinja template and python code together | ✅ |
 | [uilib-spec](https://github.com/hyperflask/uilib-spec) | A specification to generate bindings for UI component libraries | 🚧 |
 | [uilib-spec-daisyui](https://github.com/hyperflask/uilib-spec-daisyui) | uilib-spec for [daisyUI](https://daisyui.com) | 🚧 |
 
