@@ -1,5 +1,5 @@
-<h1 align="center">The Hyperflask stack</h1>
-
+<div><img src="https://github.com/hyperflask/hyperflask/raw/main/assets/banner.svg" width="100%"></div>
+<hr>
 <div align="center">
 
 **Full stack Python web framework and ops stack to build, deploy and run websites and web apps with as little boilerplate as possible. All the tech choices have been made so you can focus on building your product, not your tech stack.**
