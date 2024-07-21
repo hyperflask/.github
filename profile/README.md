@@ -34,7 +34,7 @@ Visit [hyperflask.dev](https://hyperflask.dev) for more information
 | --- | --- | --- | --- |
 | [hyperflask](https://github.com/hyperflask/hyperflask) | Full stack Python web framework | [Python](https://www.python.org/), [Flask](https://flask.palletsprojects.com), [SQLite](https://www.sqlite.org/), [htmx](https://htmx.org/), [tailwindcss](https://tailwindcss.com/), [daisyUI](https://daisyui.com/) | 🚧
 | [hyperflask-start](https://github.com/hyperflask/hyperflask-start) | Starter template for new projects | [Docker](https://www.docker.com/), [Development Containers](https://containers.dev/) | 🚧
-| [hyperflask-deploy](https://github.com/hyperflask/hyperflask-infra) | Deploy your projects in once command | [Ansible](https://www.ansible.com/), [OpenTofu](https://opentofu.org/), [Ubuntu](https://ubuntu.com/), [Docker](https://www.docker.com/), [Traefik](https://traefik.io/), [Litestream](https://litestream.io/), [Valkey](https://valkey.io/), [OpenTelemetry](https://opentelemetry.io/) | 🚧
+| [hyperflask-deploy](https://github.com/hyperflask/hyperflask-deploy) | Deploy your projects in once command | [Ansible](https://www.ansible.com/), [Kamal](https://kamal-deploy.org/), [OpenTelemetry](https://opentelemetry.io/) | 🚧
 
 ## Independant projects developed as part of the Hyperflask project
 
@@ -53,8 +53,9 @@ Each of these projects is usable standalone outside of Hyperflask!
 
 | Name | Description | Status |
 | --- | --- | --- |
+| [Flask-Apispec-Hyper](https://github.com/hyperflask/flask-apispec-hyper) | [Flask-Apispec](https://github.com/jmcarp/flask-apispec) fork with updates and fixes | 🚧 |
 | [Flask-Assets-Pipeline](https://github.com/hyperflask/flask-assets-pipeline) | Modern asset pipeline using [esbuild](https://esbuild.github.io/) | ✅ |
-| [Flask-Babel-Plus](https://github.com/hyperflask/flask-babel-plus) | [Flask-Babel](https://github.com/python-babel/flask-babel) (i18n) with additional utilities | 🚧 |
+| [Flask-Babel-Hyper](https://github.com/hyperflask/flask-babel-hyper) | [Flask-Babel](https://github.com/python-babel/flask-babel) fork with additional utilities | 🚧 |
 | [Flask-Collections](https://github.com/hyperflask/flask-collections) | Manage collections of static content | 🚧 |
 | [Flask-Configurator](https://github.com/hyperflask/flask-configurator) | File based configuration | ✅ |
 | [Flask-File-Routes](https://github.com/hyperflask/flask-file-routes) | File-based routing with a new file format combining python and jinja template in a single file | 🚧 |
@@ -67,6 +68,8 @@ Each of these projects is usable standalone outside of Hyperflask!
 | [Flask-SQLORM](https://github.com/hyperflask/flask-sqlorm) | Flask integration of [sqlorm](https://github.com/hyperflask/sqlorm) | ✅ |
 | [Flask-Stripe-Checkout](https://github.com/hyperflask/flask-stripe-checkout) | Handle payments and subscriptions using Stripe Checkout | ✅ |
 | [Flask-Super-Macros](https://github.com/hyperflask/flask-super-macros) | Better macro management for Jinja | 🚧 |
+
+**Note: as a convention, forks will be named `[original]-hyper`. `hyperflask-something` is reserved for hyperflask specific extensions.**
 
 ### Jinja extensions
 
