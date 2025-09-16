@@ -45,6 +45,7 @@ Each of these projects is usable standalone outside of Hyperflask!
 | [jinjapy](https://github.com/hyperflask/jinjapy) | Hybrid file format combining a jinja template and python code together | ✅ |
 | [uilib-spec](https://github.com/hyperflask/uilib-spec) | A specification to generate bindings for UI component libraries | 🚧 |
 | [docker-web-deploy](https://github.com/hyperflask/docker-web-deploy) | Docker based deployments target VPS and docker based cloud hosting | ❌
+| [Jinja-Super-Macros](https://github.com/hyperflask/jinja-super-macros) | Better macro management for Jinja | ✅ |
 
 ### Flask extensions
 
@@ -75,7 +76,6 @@ Each of these projects is usable standalone outside of Hyperflask!
 | --- | --- | --- |
 | [Jinja-Frontmatter](https://github.com/hyperflask/jinja-frontmatter) | Frontmatter support for jinja templates | ✅ |
 | [Jinja-Layout](https://github.com/hyperflask/jinja-layout) | Easier layout handling for Jinja | ✅ |
-| [Jinja-Super-Macros](https://github.com/hyperflask/jinja-super-macros) | Better macro management for Jinja | ✅ |
 | [Jinja-WTForms](https://github.com/hyperflask/jinja-wtforms) | Create [WTForms](https://wtforms.readthedocs.io) classes from Jinja templates | ✅ |
 | [Dramatiq-SQLite](https://github.com/hyperflask/dramatiq-sqlite) | SQLite broker for [Dramatiq](https://dramatiq.io/) | 🚧 |
 | [uilib-spec-daisyui](https://github.com/hyperflask/uilib-spec-daisyui) | uilib-spec for [daisyUI](https://daisyui.com) | 🚧 |
