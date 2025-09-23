@@ -13,12 +13,13 @@ It intends to provide solo devs and small teams a solution that allows them to b
 Key goals:
 
  - Full stack experience, from dev environment to UI framework to deployment
+ - Backend driven with static content generation when needed
+ - Great developer experience and high productivity
  - All the tech choices have been made so you don't need to ask yourself tech stack questions
  - Fully Open-Source stack that is 100% self-hostable if desired (no dependencies on cloud services)
  - Use proven technologies and rely on standards as much as possible
- - Backend driven with static content generation when needed
- - Built for pragmatical but professional projects
- - Great developer experience and high productivity
+ - Built for pragmatical but professional production apps
+ - Limit "magic", things should be understandable, evolvable and maintanable
  - Beginner friendly but well engineered for advanced use cases
  - Optimized for solo developers and small teams
  - Can run on cheap machines or VMs from any server/cloud providers
@@ -62,11 +63,11 @@ Each of these projects is usable standalone outside of Hyperflask!
 | [Flask-Mercure-SSE](https://github.com/hyperflask/flask-mercure-sse) | Push events via server-sent events using the [Mercure](https://mercure.rocks) protocol | ✅ |
 | [Flask-Observability](https://github.com/hyperflask/flask-observability) | Observable Flask apps with [OpenTelemetry](https://opentelemetry.io/), logging and more | ✅ |
 | [Flask-Product-Analytics](https://github.com/hyperflask/flask-product-analytics) | Easily track product usage | 🚧 |
-| [Flask-Resourceful](https://github.com/hyperflask/flask-resourceful) | Powerful REST APIs based on ORM models | 🚧 |
 | [Flask-Sentry](https://github.com/hyperflask/flask-sentry) | Sentry and Spotlight integration | ✅ |
 | [Flask-SQLORM](https://github.com/hyperflask/flask-sqlorm) | Flask integration of [sqlorm](https://github.com/hyperflask/sqlorm) | ✅ |
 | [Flask-Stripe-Checkout](https://github.com/hyperflask/flask-stripe-checkout) | Handle payments and subscriptions using Stripe Checkout | ✅ |
 | [Flask-Super-Macros](https://github.com/hyperflask/flask-super-macros) | Better macro management for Jinja | ✅ |
+| [Flask-Suspense](https://github.com/hyperflask/flask-suspense) | Suspense support for Flask | ✅ |
 
 *Note: as a convention, forks will be named `[original]-hyper`. `hyperflask-something` is reserved for hyperflask specific extensions.*
 
