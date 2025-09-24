@@ -57,7 +57,7 @@ Each of these projects is usable standalone outside of Hyperflask!
 | [Flask-Collections](https://github.com/hyperflask/flask-collections) | Manage collections of static content | ✅ |
 | [Flask-Configurator](https://github.com/hyperflask/flask-configurator) | File based configuration | ✅ |
 | [Flask-File-Routes](https://github.com/hyperflask/flask-file-routes) | File-based routing with a new file format combining python and jinja template in a single file | ✅ |
-| [Flask-Files](https://github.com/hyperflask/flask-files) | [Fsspec](https://filesystem-spec.readthedocs.io/en/latest/) based files management (upload, storage and image manipulation) | 🚧 |
+| [Flask-Files](https://github.com/hyperflask/flask-files) | [Fsspec](https://filesystem-spec.readthedocs.io/en/latest/) based files management (upload, storage and image manipulation) | ✅ |
 | [Flask-Geo](https://github.com/hyperflask/flask-geo) | Geolocation using [Maxmind](https://www.maxmind.com/en/geoip-databases) | ✅ |
 | [Flask-Mailman-Templates](https://github.com/hyperflask/flask-mailman-templates) | Email templates for [Flask-Mailman](https://github.com/waynerv/flask-mailman) | ✅ |
 | [Flask-Mercure-SSE](https://github.com/hyperflask/flask-mercure-sse) | Push events via server-sent events using the [Mercure](https://mercure.rocks) protocol | ✅ |
@@ -79,11 +79,4 @@ Each of these projects is usable standalone outside of Hyperflask!
 | [Jinja-Layout](https://github.com/hyperflask/jinja-layout) | Easier layout handling for Jinja | ✅ |
 | [Jinja-WTForms](https://github.com/hyperflask/jinja-wtforms) | Create [WTForms](https://wtforms.readthedocs.io) classes from Jinja templates | ✅ |
 | [Dramatiq-SQLite](https://github.com/hyperflask/dramatiq-sqlite) | SQLite broker for [Dramatiq](https://dramatiq.io/) | 🚧 |
-| [uilib-spec-daisyui](https://github.com/hyperflask/uilib-spec-daisyui) | uilib-spec for [daisyUI](https://daisyui.com) | 🚧 |
-
-### Frontend libraries
-
-| Project | Description | Status |
-| --- | --- | --- |
-| [htmx-active-url](https://github.com/hyperflask/htmx-active-url) | Highlight the currently active url | ❌ |
-| [mercure-event-source](https://github.com/hyperflask/mercure-event-source) | SSE EventSource manager for Mercure hubs | ❌ |
+| [uilib-spec-daisyui](https://github.com/hyperflask/uilib-spec-daisyui) | uilib-spec for [daisyUI](https://daisyui.com) | ✅ |
